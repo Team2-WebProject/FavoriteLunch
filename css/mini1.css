@@ -1,0 +1,91 @@
+* {
+    font-family: 'Gamja Flower', cursive;
+}
+
+.mytitle {
+    height: 250px;
+    color: blue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('https://blog.kakaocdn.net/dn/bP3H8K/btsCZh3KiD6/Q86V5DpvyhzQjY5VAJdmCk/img.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+#titleMessage {
+    margin-top: 60px;
+}
+
+#menubtn {
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+}
+
+/* 메뉴판 */
+
+#menuTable {
+    display: none;
+    background-image: url('https://cdn.crowdpic.net/detail-thumb/thumb_d_64167BCCEB0F354CDA4E36C97FF0C9A8.jpg');
+    background-position: center;
+    background-color: green;
+    width: 60%;
+    height: 700px;
+}
+
+.menuTitle {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+}
+
+
+#menuHtmlTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate; 
+    border-spacing: 8px 30px;
+}
+
+/* ------------------------------------------------ */
+
+/* 지도 */
+
+
+#mapTable {
+    background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkMI3%2FbtsNYmNFA8O%2FK0ghYku9TYW1KMLdqgXt7k%2Fimg.png');
+    background-position: center;
+    background-color: green;
+    width: 60%;
+    height: 700px;
+}
+
+
+
+.mapTitle {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
