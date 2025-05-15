@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-item {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: none;
+    background: #ff9800;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-item:hover {
+    background: #e65100;
+}
+.section-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.menu-items {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 320px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.menu-items:hover {
+    transform: translateY(-5px);
+}
+.menu-items img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.menu-info {
+    padding: 16px;
+}
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-title h4 {
+    margin: 0;
+    font-size: 1.1em;
+}
+.price {
+    color: #ff9800;
+}
+.menu-text {
+    margin-top: 8px;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.main_desc {
+  text-align: center;        /* 글자 가운데 정렬 */
+  font-size: 1.5em;            /* 글자 크기 크게 */
+  font-weight: bold;         /* (선택) 글자 두껍게 */
+  margin-bottom: 10px;       /* (선택) 아래 여백 */
+}
+
+#showBtn {
+  display: block;            /* 버튼을 블록 요소로 */
+  margin: 20px auto 0 auto;  /* 위 여백 + 좌우 가운데 정렬 */
+  font-size: 0.8em;          /* 버튼 글자 크게 */
+  padding: 12px 16px;        /* 버튼 크기 키우기 */
+  cursor: pointer;
+}
+
+.custom-btn {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #222;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 36px;
+  font-size: 18px;
+  font-family: 'Gungsuh', '궁서', serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.custom-btn:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+
+#moreInfo { 
+    display: none; 
+}
