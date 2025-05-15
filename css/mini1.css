@@ -1,0 +1,133 @@
+* {
+    font-family: 'Gamja Flower', cursive;
+}
+
+.mytitle {
+    height: 250px;
+    color: blue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://blog.kakaocdn.net/dn/bP3H8K/btsCZh3KiD6/Q86V5DpvyhzQjY5VAJdmCk/img.jpg') center/cover no-repeat;
+}
+
+#mytitleLotte {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../miniImage/lot.png') center/cover no-repeat;
+
+}
+
+#titleMessage {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+#menubtn {
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+#mapbtn {
+    display: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* 메뉴판 */
+
+#menuTable {
+    display: none;
+    background-image: url('https://cdn.crowdpic.net/detail-thumb/thumb_d_64167BCCEB0F354CDA4E36C97FF0C9A8.jpg');
+    background-position: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 60%;
+    height: 700px;
+}
+
+.menuTitle {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+}
+
+
+#menuHtmlTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate; 
+    border-spacing: 8px 30px;
+}
+
+/* ------------------------------------------------ */
+
+/* 지도 */
+
+
+.mapTable {
+    margin-top: 100px;
+    background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkMI3%2FbtsNYmNFA8O%2FK0ghYku9TYW1KMLdqgXt7k%2Fimg.png');
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#mapTableLotte {
+     background-image: url('../miniImage/lotmap.png');
+    
+}
+
+.mapTitle {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#rightBox {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 40%;
+    height: 700px;
+    background-image: url('https://blog.kakaocdn.net/dn/cABAWe/btsNWOkn6KM/p9xq4IK8fBfg1kSVCJioIK/img.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
