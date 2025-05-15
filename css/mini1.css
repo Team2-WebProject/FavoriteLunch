@@ -12,13 +12,13 @@
     justify-content: center;
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://blog.kakaocdn.net/dn/bP3H8K/btsCZh3KiD6/Q86V5DpvyhzQjY5VAJdmCk/img.jpg') center/cover no-repeat;
+        url('https://blog.kakaocdn.net/dn/bP3H8K/btsCZh3KiD6/Q86V5DpvyhzQjY5VAJdmCk/img.jpg')
+            center/cover no-repeat;
 }
 
 #mytitleLotte {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../miniImage/lot.png') center/cover no-repeat;
-
+        url('../miniImage/lot.png') center/cover no-repeat;
 }
 
 #titleMessage {
@@ -54,7 +54,7 @@
     background-position: center;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 60%;
     height: 700px;
 }
@@ -71,18 +71,16 @@
     justify-content: center;
 }
 
-
 .btn {
     font-size: 16px;
     width: 200px;
     height: 60px;
 }
 
-
 #menuHtmlTable {
     margin-left: auto;
     margin-right: auto;
-    border-collapse: separate; 
+    border-collapse: separate;
     border-spacing: 8px 30px;
 }
 
@@ -90,8 +88,7 @@
 
 /* 지도 */
 
-
-.mapTable {
+/* .mapTable {
     margin-top: 100px;
     background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkMI3%2FbtsNYmNFA8O%2FK0ghYku9TYW1KMLdqgXt7k%2Fimg.png');
     background-size: cover;
@@ -99,16 +96,43 @@
     width: 60%;
     height: 500px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    
+
+    align-items: center;
+    justify-content: center;
+} */
+
+.mapdescriptionBack {
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 30px;
     align-items: center;
     justify-content: center;
 }
 
-#mapTableLotte {
-     background-image: url('../miniImage/lotmap.png');
-    
+
+.mapdescriptionLotte {
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mapImage {
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .mapTitle {
@@ -117,7 +141,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 #rightBox {
     position: absolute;
@@ -129,5 +152,60 @@
     background-size: cover;
     background-position: center;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* 위-중앙-아래 정렬 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#instruction {
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#foodImage {
+    border-radius: 15px;
+    border: 4px solid aqua;
+    display: none;
+    max-width: 80%;
+    max-height: 60%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#priceBox {
+    border-radius: 15px;
+    border: 4px solid aqua;
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#priceResetBtn {
+    border-radius: 15px;
+    border: 4px solid aqua;
+    display: none;
+    border-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#description {
+    border-radius: 15px;
+    border: 4px solid aqua;
+    font-size: 20px;
+    background-color: white;
 }

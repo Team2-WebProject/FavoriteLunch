@@ -14,10 +14,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <div class="mytitle" id="mytitleLotte">
+        <div class="mytitle">
             <h1 id="titleMessage">"!롯데리아!"</h1>
-            <button id="menubtn" type="button">메뉴가 보고싶나?</button>
-            <button id="mapbtn" type="button">위치가 보고싶나?</button>
+            <button id="menubtn" type="button">메뉴판 보기</button>
+            <button id="mapbtn" type="button">위치정보 보기</button>
         </div>
 
         <div id="menuTable">
@@ -25,43 +25,57 @@
             <br />
             <br />
             <p class="menuTitle">오늘도 롯데리아에서 따뜻한 한 끼 어떠세요?</p>
-            <p class="menuTitle">정성 가득한 버거, 롯데리아에서 만나요.</p>
+            <p class="menuTitle">버튼을 클릭하여 음식 사진을 구경해보세요.</p>
 <table id="menuHtmlTable" class="mt-4">
     <tr>
-      <td><button id="btn1" type="button" class="btn btn-primary" data-img="../miniImage/lot1.png">나폴리맛피아 모짜렐라버거</button></td>
-      <td><button id="btn2" type="button" class="btn btn-success" data-img="../miniImage/lot2.png" >전주 비빔라이스 버거</button></td>
-      <td><button id="btn3" type="button" class="btn btn-warning" data-img="../miniImage/lot3.png">리아 새우 베이컨</button></td>
-      <td><button id="btn4" type="button" class="btn btn-info" data-img="../miniImage/lot4.png">리아 불고기 베이컨</button></td>
+      <td><button id="btn1" type="button" class="btn btn-primary" data-text="쫄깃한 모짜렐라와 나폴리풍 토마토소스가 어우러진 풍미 가득 버거" data-img="../miniImage/lot1.png" data-price="9100">나폴리맛피아 모짜렐라버거</button></td>
+      <td><button id="btn2" type="button" class="btn btn-success" data-text="고슬고슬한 밥과 전주식 비빔양념으로 만든 색다른 한국식 라이스버거" data-img="../miniImage/lot2.png" data-price="7300">전주 비빔라이스 버거</button></td>
+      <td><button id="btn3" type="button" class="btn btn-warning" data-text="통살 새우패티에 베이컨을 더한 바삭하고 고소한 시푸드 버거" data-img="../miniImage/lot3.png" data-price="6100">리아 새우 베이컨</button></td>
+      <td><button id="btn4" type="button" class="btn btn-info" data-text="달콤한 불고기 패티에 베이컨을 더해 풍미를 높인 인기 메뉴" data-img="../miniImage/lot4.png" data-price="6100">리아 불고기 베이컨</button></td>
     </tr>
     <tr>
-      <td><button id="btn5" type="button" class="btn btn-primary" data-img="../miniImage/lot5.png">더블 클래식 치즈버거</button></td>
-      <td><button id="btn6" type="button" class="btn btn-success" data-img="../miniImage/lot6.png">더블 치킨버거</button></td>
-      <td><button id="btn7" type="button" class="btn btn-warning" data-img="../miniImage/lot7.png">한우불고기버거</button></td>
-      <td><button id="btn8" type="button" class="btn btn-info" data-img="../miniImage/lot8.png">더블 한우불고기버거</button></td>
+      <td><button id="btn5" type="button" class="btn btn-primary" data-text="두 장의 고기 패티와 진한 치즈가 어우러진 정통 아메리칸 스타일 버거" data-img="../miniImage/lot5.png" data-price="7200">더블 클래식 치즈버거</button></td>
+      <td><button id="btn6" type="button" class="btn btn-success" data-text="두툼한 치킨패티 두 장으로 푸짐하게 즐기는 치킨버거" data-img="../miniImage/lot6.png" data-price="5800">더블 치킨버거</button></td>
+      <td><button id="btn7" type="button" class="btn btn-warning" data-text="	국산 한우를 사용한 프리미엄 불고기버거, 고소하고 부드러운 맛" data-img="../miniImage/lot7.png" data-price="9000">한우불고기버거</button></td>
+      <td><button id="btn8" type="button" class="btn btn-info" data-text="한우 패티를 두 장 사용한 럭셔리한 불고기버거" data-img="../miniImage/lot8.png" data-price="13000">더블 한우불고기버거</button></td>
     </tr>
     <tr>
-      <td><button id="btn9" type="button" class="btn btn-primary" data-img="../miniImage/lot9.png">더블 데리버거</button></td>
-      <td><button id="btn10" type="button" class="btn btn-success" data-img="../miniImage/lot10.png">리아 불고기더블</button></td>
-      <td><button id="btn11" type="button" class="btn btn-warning" data-img="../miniImage/lot11.png">리아 불고기</button></td>
-      <td><button id="btn12" type="button" class="btn btn-info" data-img="../miniImage/lot12.png">더블엑스투버거</button></td>
+      <td><button id="btn9" type="button" class="btn btn-primary" data-text="데리야끼 소스를 곁들인 패티가 두 장! 달콤짭짤한 풍성한 맛" data-img="../miniImage/lot9.png" data-price="5000">더블 데리버거</button></td>
+      <td><button id="btn10" type="button" class="btn btn-success" data-text="롯데리아 대표 불고기버거를 두 배로! 든든한 한 끼용 버거" data-img="../miniImage/lot10.png" data-price="7600">리아 불고기 더블</button></td>
+      <td><button id="btn11" type="button" class="btn btn-warning" data-text="롯데리아 시그니처, 달콤한 불고기 소스와 고기 패티의 조화" data-img="../miniImage/lot11.png" data-price="5000">리아 불고기</button></td>
+      <td><button id="btn12" type="button" class="btn btn-info" data-text="소고기 패티 두 장과 치즈, 특제 소스로 완성한 고급 더블버거" data-img="../miniImage/lot12.png" data-price="7200">더블 엑스투버거</button></td>
     </tr>
     <tr>
-      <td><button id="btn13" type="button" class="btn btn-primary" data-img="../miniImage/lot13.png">리아 사각새우 더블</button></td>
-      <td><button id="btn14" type="button" class="btn btn-success" data-img="../miniImage/lot14.png">리아 새우</button></td>
-      <td><button id="btn15" type="button" class="btn btn-warning" data-img="../miniImage/lot15.png">미라클 버거</button></td>
-      <td><button id="btn16" type="button" class="btn btn-info" data-img="../miniImage/lot16.png">티렉스 버거</button></td>
+      <td><button id="btn13" type="button" class="btn btn-primary" data-text="사각형 새우패티 두 장이 바삭하게! 시각과 맛 모두 만족" data-img="../miniImage/lot13.png" data-price="6100">리아 사각새우 더블</button></td>
+      <td><button id="btn14" type="button" class="btn btn-success" data-text="통살 새우패티에 고소한 타르타르 소스를 곁들인 클래식 새우버거" data-img="../miniImage/lot14.png" data-price="5000">리아새우</button></td>
+      <td><button id="btn15" type="button" class="btn btn-warning" data-text="식물성 대체육을 사용한 비건 스타일 버거, 고기 없이도 풍부한 맛" data-img="../miniImage/lot15.png" data-price="5700">미라클 버거</button></td>
+      <td><button id="btn16" type="button" class="btn btn-info" data-text="큼지막한 통닭다리살 치킨패티로 육즙 가득한 치킨버거의 끝판왕" data-img="../miniImage/lot16.png" data-price="5000">티렉스 버거</button></td>
     </tr>
 </table>
     </div>
 
 
     <div class="mapTable" id="mapTableLotte">
+      <p id="mapdescription" class="mapdescriptionLotte">서울특별시 종로구 창경궁로 273 롯데리아 혜화점</p>
+      <img id="mapImage" src="../miniImage/lotmap.png" alt="음식 이미지" />
+
+      
 
     </div>
+
 
     <div id="rightBox">
-      
+        <div id="instruction">음식을 장바구니에 추가하려면<br>사진을 클릭해주세요</div>
+            <img id="foodImage" src="" alt="음식 이미지" />
+            <p id="description" class="descriptionLotte"></p>
+        <div id="priceBox">총 금액: 0원</div> <button id="priceResetBtn" type="button">금액 초기화</button>
     </div>
+
+
+    <!-- <div id="rightBox">
+       <div id="instruction">음식을 장바구니에 추가하려면 사진을 클릭해주세요</div>
+      <div id="priceBox">총 금액: 0원</div>
+    </div> -->
 
     </body>
     <script src="../js/mini1.js"></script>
