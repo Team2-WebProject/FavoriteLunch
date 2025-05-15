@@ -103,10 +103,6 @@ menuList(menu);
 categoryList();
 
 
-// 초기화
-menuList(menu);
-categoryList();
-
 
 const btn = document.getElementById('showBtn');
 const info = document.getElementById('moreInfo');
