@@ -16,8 +16,8 @@
     <body>
         <div class="mytitle">
             <h1 id="titleMessage">"!백소정!"</h1>
-            <button id="menubtn" type="button">메뉴가 보고싶나?</button>
-            <button id="mapbtn" type="button">위치가 보고싶나?</button>
+            <button id="menubtn" type="button">메뉴판 보기</button>
+            <button id="mapbtn" type="button">위치정보 보기</button>
         </div>
 
         <div id="menuTable">
@@ -25,42 +25,46 @@
             <br />
             <br />
             <p class="menuTitle">오늘도 백소정에서 따뜻한 한 끼 어떠세요?</p>
-            <p class="menuTitle">정성 가득한 집밥, 백소정에서 만나요.</p>
+            <p class="menuTitle">버튼을 클릭하여 음식 사진을 구경해보세요.</p>
 <table id="menuHtmlTable" class="mt-4">
     <tr>
-      <td><button id="btn1" type="button" class="btn btn-primary" data-img="../miniImage/back1.png">돈카츠(등심카츠)</button></td>
-      <td><button id="btn2" type="button" class="btn btn-success" data-img="../miniImage/back2.png" >모짜렐라 치즈카츠</button></td>
-      <td><button id="btn3" type="button" class="btn btn-warning" data-img="../miniImage/back3.png">오꼬노미카츠</button></td>
-      <td><button id="btn4" type="button" class="btn btn-info" data-img="../miniImage/back4.png">에비텐 모듬카츠</button></td>
+      <td><button id="btn1" type="button" class="btn btn-primary" data-text="바삭하게 튀긴 두툼한 국내산 등심 돈가스" data-img="../miniImage/back1.png" data-price="10500">돈카츠(등심카츠)</button></td>
+      <td><button id="btn2" type="button" class="btn btn-success" data-text="속이 꽉 찬 모짜렐라 치즈와 고소한 돈가스의 만남" data-img="../miniImage/back2.png" data-price="15500">모짜렐라 치즈카츠</button></td>
+      <td><button id="btn3" type="button" class="btn btn-warning" data-text="일본식 오꼬노미야키 소스와 마요네즈가 올라간 특별한 돈카츠" data-img="../miniImage/back3.png" data-price="12900">오꼬노미카츠</button></td>
+      <td><button id="btn4" type="button" class="btn btn-info" data-text="바삭한 새우튀김과 다양한 돈카츠가 함께 나오는 인기 세트" data-img="../miniImage/back4.png" data-price="13900">에비텐 모듬카츠</button></td>
     </tr>
     <tr>
-      <td><button id="btn5" type="button" class="btn btn-primary" data-img="../miniImage/back5.png">체다치즈카츠</button></td>
-      <td><button id="btn6" type="button" class="btn btn-success" data-img="../miniImage/back6.png">치즈모듬카츠</button></td>
-      <td><button id="btn7" type="button" class="btn btn-warning" data-img="../miniImage/back7.png">마제소바</button></td>
-      <td><button id="btn8" type="button" class="btn btn-info" data-img="../miniImage/back8.png">카라이 마제소바</button></td>
+      <td><button id="btn5" type="button" class="btn btn-primary" data-text="진한 체다치즈가 흘러나오는 부드러운 치즈카츠" data-img="../miniImage/back5.png" data-price="12900">체다치즈카츠</button></td>
+      <td><button id="btn6" type="button" class="btn btn-success" data-text="모짜렐라, 체다치즈 등 다양한 치즈가 어우러진 카츠 모듬" data-img="../miniImage/back6.png" data-price="13900">치즈모듬카츠</button></td>
+      <td><button id="btn7" type="button" class="btn btn-warning" data-text="특제 간장소스로 비벼먹는 일본식 비빔우동, 국물 없이 매콤하게" data-img="../miniImage/back7.png" data-price="9900">마제소바</button></td>
+      <td><button id="btn8" type="button" class="btn btn-info" data-text="칼칼한 매운 맛이 특징인 매운 버전의 마제소바" data-img="../miniImage/back8.png" data-price="10500">카라이 마제소바</button></td>
     </tr>
     <tr>
-      <td><button id="btn9" type="button" class="btn btn-primary" data-img="../miniImage/back9.png">에비텐 어묵우동</button></td>
-      <td><button id="btn10" type="button" class="btn btn-success" data-img="../miniImage/back10.png">머쉬룸 포크카레</button></td>
-      <td><button id="btn11" type="button" class="btn btn-warning" data-img="../miniImage/back11.png">에비텐 온소바</button></td>
-      <td><button id="btn12" type="button" class="btn btn-info" data-img="../miniImage/back12.png">냉소바</button></td>
+      <td><button id="btn9" type="button" class="btn btn-primary" data-text="탱글한 어묵과 바삭한 새우튀김이 들어간 따끈한 우동" data-img="../miniImage/back9.png" data-price="9900">에비텐 어묵우동</button></td>
+      <td><button id="btn10" type="button" class="btn btn-success" data-text="부드러운 돼지고기와 버섯이 어우러진 고소한 일본식 카레" data-img="../miniImage/back10.png" data-price="10500">머쉬룸 포크카레</button></td>
+      <td><button id="btn11" type="button" class="btn btn-warning" data-text="뜨거운 메밀국수에 새우튀김이 올라간 따뜻한 소바" data-img="../miniImage/back11.png" data-price="9500">에비텐 온소바</button></td>
+      <td><button id="btn12" type="button" class="btn btn-info" data-text="차갑고 담백한 메밀면을 시원하게 즐기는 여름철 별미" data-img="../miniImage/back12.png" data-price="9500">냉소바</button></td>
     </tr>
     <tr>
-      <td><button id="btn13" type="button" class="btn btn-primary" data-img="../miniImage/back13.png">자루소바</button></td>
-      <td><button id="btn14" type="button" class="btn btn-success" data-img="../miniImage/back14.png">카라이 에비텐 온소바</button></td>
-      <td><button id="btn15" type="button" class="btn btn-warning" data-img="../miniImage/back15.png">카라이 마제소바 에비텐</button></td>
-      <td><button id="btn16" type="button" class="btn btn-info" data-img="../miniImage/back16.png">카라이 마제소바 돈카츠</button></td>
+      <td><button id="btn13" type="button" class="btn btn-primary" data-text="간장소스에 면을 찍어먹는 정통 일본식 냉메밀" data-img="../miniImage/back13.png" data-price="9500">자루소바</button></td>
+      <td><button id="btn14" type="button" class="btn btn-success" data-text="얼큰한 국물과 에비텐이 조화를 이루는 매운 온소바" data-img="../miniImage/back14.png" data-price="9900">카라이 에비텐 온소바</button></td>
+      <td><button id="btn15" type="button" class="btn btn-warning" data-text="매운 마제소바에 바삭한 새우튀김이 곁들여진 풍성한 한 그릇" data-img="../miniImage/back15.png" data-price="13900">카라이 마제소바 에비텐</button></td>
+      <td><button id="btn16" type="button" class="btn btn-info" data-text="매운 마제소바와 바삭한 돈카츠가 한 판에! 매콤+고소 조합" data-img="../miniImage/back16.png" data-price="15500">카라이 마제소바 돈카츠</button></td>
     </tr>
 </table>
     </div>
 
 
     <div class="mapTable">
-
+      <p id="mapdescription" class="mapdescriptionBack">서울특별시 종로구 대학로 143 2층</p>
+      <img id="mapImage" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRkMI3%2FbtsNYmNFA8O%2FK0ghYku9TYW1KMLdqgXt7k%2Fimg.png" alt="음식 이미지" />
     </div>
 
     <div id="rightBox">
-      
+        <div id="instruction">음식을 장바구니에 추가하려면<br>사진을 클릭해주세요</div>
+            <img id="foodImage" src="" alt="음식 이미지" />
+            <p id="description"></p>
+        <div id="priceBox">총 금액: 0원</div> <button id="priceResetBtn" type="button">금액 초기화</button>
     </div>
 
     </body>
