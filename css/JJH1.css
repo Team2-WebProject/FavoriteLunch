@@ -1,0 +1,159 @@
+body {
+    font-family: 'Noto Sans KR', '나눔고딕', 'Malgun Gothic', Arial, sans-serif;
+    background: #f8fafc; /* 더 밝고 세련된 배경 */
+    margin: 0;
+    padding: 20px;
+}
+
+.paris-title {
+  font-size: 50px;
+  font-family: 'Noto Sans KR', '나눔고딕', 'Malgun Gothic', Arial, sans-serif;
+  color: #0053A6; /* 파리바게트 대표 파랑 */
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #1B3D8C; /* 진한 파랑으로 통일 */
+    font-family: 'Noto Sans KR', '나눔고딕', 'Malgun Gothic', Arial, sans-serif;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-item {
+    margin: 0 5px;
+    padding: 8px 18px;
+    border: none;
+    background: #0053A6; /* 파란색 버튼 */
+    color: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Noto Sans KR', '나눔고딕', Arial, sans-serif;
+    transition: background 0.2s;
+}
+.btn-item:hover {
+    background: #1B3D8C; /* 더 진한 파랑 */
+}
+.section-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.menu-items {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,83,166,0.08); /* 파란색 그림자 */
+    width: 320px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1.5px solid #e3e8f0;
+}
+.menu-items:hover {
+    transform: translateY(-5px) scale(1.04);
+    box-shadow: 0 8px 32px rgba(0,83,166,0.12);
+}
+.menu-items img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.menu-info {
+    padding: 18px 16px 16px 16px;
+}
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-title h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #0053A6;
+}
+.price {
+    color: #1B3D8C;
+    font-weight: bold;
+}
+.menu-text {
+    margin-top: 8px;
+    color: #555;
+    font-size: 0.97em;
+}
+
+.main_desc {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #1B3D8C;
+  font-family: 'Noto Sans KR', '나눔고딕', Arial, sans-serif;
+}
+
+#showBtn {
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 1em;
+  padding: 14px 24px;
+  cursor: pointer;
+  background: #0053A6;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Noto Sans KR', '나눔고딕', Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 16px rgba(0,83,166,0.10);
+  transition: background 0.2s, transform 0.15s;
+}
+#showBtn:hover {
+  background: #1B3D8C;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.custom-btn {
+  background: linear-gradient(90deg, #0053A6 0%, #1B3D8C 100%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 36px;
+  font-size: 18px;
+  font-family: 'Noto Sans KR', '나눔고딕', Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,83,166,0.12);
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+.custom-btn:hover {
+  background: linear-gradient(90deg, #1B3D8C 0%, #0053A6 100%);
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(0,83,166,0.18);
+}
+
+#moreInfo { 
+    display: none; 
+    background: #eaf1fa;
+    color: #1B3D8C;
+    border-radius: 12px;
+    padding: 22px 28px;
+    margin: 24px auto 0 auto;
+    max-width: 600px;
+    font-size: 1.1em;
+    font-family: 'Noto Sans KR', '나눔고딕', Arial, sans-serif;
+    box-shadow: 0 2px 12px rgba(0,83,166,0.08);
+}
+
+
+ol {
+  margin: 0 0 0 1.2em;
+  padding: 0;
+}
+ol li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
